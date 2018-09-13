@@ -1,6 +1,6 @@
 # GitHub Deployer for Heroku
 
-The GitHub Deployer for Heroku task wraps the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) to enable common Heroku commands.
+The GitHub Deployer for [Heroku](https://heroku.com/) task wraps the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) to enable common Heroku commands.
 
 ## Usage
 
