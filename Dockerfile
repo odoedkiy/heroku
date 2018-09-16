@@ -1,8 +1,9 @@
 FROM node:10-alpine
 
-LABEL "com.github.tasks.name"="GitHub Deployer for Heroku"
-LABEL "com.github.tasks.icon"="upload-cloud"
-LABEL "com.github.tasks.color"="6f42c1"
+LABEL "com.github.actions.name"="GitHub Deployer for Heroku"
+LABEL "com.github.actions.description"="Wraps the Heroku CLI to enable common Heroku commands."
+LABEL "com.github.actions.icon"="upload-cloud"
+LABEL "com.github.actions.color"="6f42c1"
 
 RUN yarn global add heroku
 
