@@ -9,6 +9,6 @@ RUN apk update && apk add --no-cache \
 	ca-certificates \
 	nghttp2 \
 	openssl \
-  docker
+  	docker
 
 ENTRYPOINT ["heroku"]
