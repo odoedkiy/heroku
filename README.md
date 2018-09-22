@@ -10,7 +10,7 @@ task "deploy" {
   command = "container:release web --app my-app"
 
   secret = {
-    "HEROKU_API_TOKEN"
+    "HEROKU_API_KEY"
   }
 }
 ```
