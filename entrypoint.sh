@@ -4,4 +4,4 @@
 
 # Validate process type arguement (web, worker, etc.)
 
-eval heroku apps:destroy --app $HEROKU_APP $*
+eval heroku apps:create --stack=container --region=us --app $HEROKU_APP --json $*
