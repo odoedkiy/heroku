@@ -1,6 +1,6 @@
-FROM node:10-alpine
+FROM node:10-slim
 
-RUN apk --no-cache add docker && yarn global add heroku
+RUN yarn global add heroku
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
