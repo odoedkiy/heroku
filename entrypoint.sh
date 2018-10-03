@@ -4,4 +4,4 @@
 
 # Validate process type arguement (web, worker, etc.)
 
-eval heroku container:release --app $HEROKU_APP $*
+eval heroku apps:destroy --app $HEROKU_APP $*
